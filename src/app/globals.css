@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Базовый стиль для body */
+body {
+  @apply min-h-screen; /* Минимальная высота страницы */
+  margin: 0;
+}
